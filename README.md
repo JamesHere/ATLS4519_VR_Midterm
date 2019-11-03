@@ -10,7 +10,7 @@ This is a midterm project from CU Boulder ATLS4519. The project is a VR shooting
 
 There are three types of enemy：the swordman will coming straight toward you and try to launch the thrust attack. The ranger will wondering around and shoot at player with bow. The sniper will stand still in the high ground and keep shooting player. 
 
-The player will have a magic wand that can shoot the magical ball. Enemy take one hit to eliminated. Player have 20 hp that can take 20 attacks. Try to eliminate as more as possible enemies is the goal of this game. 
+The player will have a magic wand that can shoot the magical ball. Enemy take one hit to eliminated. Player have 20 hp that can take 20 attacks. Try to eliminate as more as possible enemies is the goal of this game. When hp drop to zero, the game will stop running and show you the final score.
 
 The game has the Qualisys Tracking system so player can dodge the incoming arrow and thrust in the room scale VR environment.The current build didn't enable the QTM system. To enable the tracking, just enable the QTM script and connect to the grid wifi netwok.
 
@@ -66,7 +66,7 @@ Including engine scene: https://youtu.be/PUNSn_lhBgM
 PS: Since videos are recorded without the QTM, I attach the wand to the player hitbox so that you can play without the tracking system. The one I record during the presentation is too laggy to see. I also move the hitbox obj a little forward so you can see how it can dodge the attack.
 
 ## What's new
-So after the presentation, I added the fire effect to the arrow. Remove the collider on the swordman's sword and replace it with a invisible projectile & new attack effect (It's more stable and you can block and dodge it). Add the sniper so you always has "incoming arrow" that need to dodge. Add the audio sources. Adjust the camera so can play without QTM. Remove some redundant raycast stuffs and fix the skybox.
+So after the presentation, I added the fire effect to the arrow. Remove the collider on the swordman's sword and replace it with a invisible projectile & new attack effect (It's more stable and you can block and dodge it). Add the sniper so you always has "incoming arrow" that need to dodge. Add the audio sources. Adjust the camera so we can play without QTM. Remove some redundant raycast stuffs and fix the skybox. Add the kill count and game over script.
 
 
 
