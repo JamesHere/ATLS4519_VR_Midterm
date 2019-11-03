@@ -48,6 +48,14 @@ swordThrust: Play the thrust effect and launch a invisible hitbox toward the pla
 
 timeOutRemove: just time out remover.
 
+## Audio Sources
+I am the voice actor. I recorded all the sound effect, for funny and convenient purpose.
 
+## Assets
+MOBA Hero Creep (free version, so not complete animation) https://www.youtube.com/watch?v=zavOnZ7VNUI
+Epic Toon Fx 1.31 (also free version) https://assetstore.unity.com/packages/vfx/particles/epic-toon-fx-57772
+Custom Made with Blender
+
+## Video
 
 
