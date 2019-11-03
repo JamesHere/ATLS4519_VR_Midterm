@@ -1,4 +1,6 @@
-# ATLS4519_VR_Midterm Project_Chen Kakam
+# ATLS4519_VR_Midterm Project
+
+Chen Kakam
 Untitled Shooting Game.
 
 Platform: Android V4.4 or above
@@ -59,7 +61,7 @@ Epic Toon Fx 1.31 (also free version) https://assetstore.unity.com/packages/vfx/
 Custom Made with Blender
 
 ## Video
-Including engine scene: 
+Including engine scene: https://youtu.be/PUNSn_lhBgM
 
 PS: Since videos are recorded without the QTM, I attach the wand to the player hitbox so that you can play without the tracking system. I also move the hitbox obj a little forward so you can see how it can dodge the attack.
 
