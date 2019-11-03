@@ -18,5 +18,36 @@ Player can also use wand to block the arrow and thrust.
 Cool effect, animation and damage indicator.
 
 ## Scripts
+angleOffset: Let the thrust effect always face the player and emit at correct location.
+
+approaching: The swordman AI. The swordman will slowly approach the player and launch the attack when distant is close enough.
+
+arrowFlying: The arrow logic. Always aim for the player's hitbox.
+
+CameraTransformCorrection: Camera transform correction for the QTM.
+
+damage: Monitor the hp and kill count of the player. It also decide when the damage indicator effect will play.
+
+fireballLunch: Allow wand to shoot the magical ball.
+
+hpMonitor: The 3D text that attach to the camera. Will show the HP left and kill count.
+
+MeleeSpawner: Spawn the swordman around the player.
+
+rangedAI: ranger AI. Will randomly walk around and shooting. Make player hard to aim.
+
+rangeSpawner: Spawn the ranger around the player.
+
+removeArrow: The arrow destory conditions.
+
+sniper: sniper AI. Stand still and shoot at the player from the high ground.
+
+sniperSpawner: Spawn the sniper at the high ground. It's more like a "refresher". It will remove the current sniper when spawn the new one.
+
+swordThrust: Play the thrust effect and launch a invisible hitbox toward the player. If you are fast enough, you can block it or even dodge it.
+
+timeOutRemove: just time out remover.
+
+
 
 
